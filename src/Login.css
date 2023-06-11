@@ -1,0 +1,91 @@
+.login{
+    background-color: #F0F8FF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-logo{
+    margin-top:20px ;
+    margin-bottom:20px ;
+    object-fit: contain;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-container{
+    background-color: #E1EBEE;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.login-container>h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.login-container>form>h5{
+    margin-bottom: 5px;
+}
+
+.login-container>form>input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    width: 98%;
+}
+
+.login-container>p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login-signInButton {
+    background: #f0c14b;
+    border-radius: 2px;
+    border: 1px solid;
+    height: 30px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-signInButton:hover {
+    background-color: #e1b641;
+}
+
+.login-signInButton:active {
+    transform: scale(0.95);
+}
+
+
+.login-registerButton {
+    border-radius: 2px;
+    border: 1px solid;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-color: darkgray;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-registerButton:hover {
+    background-color: lightgray;
+}
+
+.login-registerButton:active {
+    transform: scale(0.95);
+}
